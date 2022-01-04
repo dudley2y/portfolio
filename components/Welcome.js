@@ -25,7 +25,6 @@ const Welcome = () => {
     return(
         <div className ="welcome"> 
             {displayWelcome()}
-            
         </div>
     )
 }
