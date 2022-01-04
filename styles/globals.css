@@ -1,16 +1,46 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer components {
 
-* {
-  box-sizing: border-box;
+    .main-content {
+        @apply ml-[15rem] w-screen bg-stone-900 text-white pt-10 h-screen ;
+    }
+
+    .sidebar{
+        @apply fixed top-0 left-0 h-screen w-60 m-0 flex flex-col  bg-black text-white shadow-lg;
+    }
+
+    .sidebar-icon {
+        @apply relative flex pl-4 pt-10 text-green-300 hover:text-white hover:font-bold;
+    }
+
+    .sidebar-text {
+        @apply text-lg pl-2;
+      }
+
+    .page{
+        @apply mx-10
+    }
+
+    .intro-board{
+        @apply flex   py-5 bg-black rounded-lg;
+    }
+
+    .profile-image{
+        @apply ml-10 ;
+    }
+
+    .about-me{
+        @apply mx-5;
+    }
+
+    .intro-speech{
+        @apply text-base pt-14;
+    }
+
+    .welcome {
+        @apply text-3xl mt-5
+    }
 }
