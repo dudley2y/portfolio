@@ -9,6 +9,7 @@ const Introduction = () => {
                     layout="fixed"
                     src="/profile.jpg" 
                     alt="Picture of the author"
+                    priority = {true}
                     width={250} 
                     height={250}
                 />
