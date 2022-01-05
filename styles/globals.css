@@ -45,7 +45,7 @@
     }
 
     .project-board { 
-        @apply flex border-solid border-2 border-white rounded-3xl my-5;
+        @apply flex border-solid border-2 border-white rounded-3xl my-5 bg-black fill-orange-400;
     }
 
     .project-board-text{
