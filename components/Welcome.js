@@ -7,7 +7,7 @@ const Welcome = () => {
 
         let hour = new Date().getHours();
 
-        if( hour > 6 && hour < 10){
+        if( hour >= 6 && hour < 10){
             // morning
             return <p>Good Morning,</p>
         }

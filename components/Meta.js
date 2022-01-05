@@ -16,7 +16,7 @@ const Meta = ({ title, keywords, description }) => {
 Meta.defaultProps = {
     title: "Joshua Dudley",
     keywords: "Joshua Dudley, Portfolio",
-    description: "Joshua Dudley's Portfolio:"
+    description: "Joshua Dudley's Portfolio"
 }
 
 export default Meta;
