@@ -71,4 +71,8 @@
     .redirect-text{
         @apply self-center text-xl;
     }
+
+    .paper{
+        @apply bg-stone-900 border-solid border-2 border-white rounded-xl w-auto mx-5 pl-3 mb-10 hover:font-bold;
+    }
 }
