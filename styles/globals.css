@@ -5,15 +5,15 @@
 @layer components {
 
     .main-content {
-        @apply ml-[15rem] w-screen bg-stone-900 text-white pt-10 h-screen overflow-auto;
+        @apply ml-[15rem] w-screen  text-white  bg-black pt-10 h-screen overflow-auto;
     }
 
     .sidebar{
-        @apply fixed top-0 left-0 h-screen w-60 mt-0 pt-5 flex flex-col  bg-black text-white shadow-lg;
+        @apply fixed top-0 left-0 h-screen w-60 mt-0 pt-5 flex flex-col bg-stone-900 text-white shadow-lg;
     }
 
     .sidebar-icon {
-        @apply relative flex pl-4 pt-10 text-white hover:font-bold hover:text-green-400;
+        @apply relative flex pl-4 pt-10 text-white hover:font-bold ;
     }
 
     .sidebar-text {
@@ -25,7 +25,7 @@
     }
 
     .intro-board{
-        @apply flex   py-5 bg-black rounded-lg;
+        @apply flex   py-5 bg-stone-900 rounded-lg;
     }
 
     .profile-image{
@@ -49,7 +49,7 @@
     }
 
     .project-board { 
-        @apply flex border-solid border-2 border-white rounded-3xl  bg-black my-2 w-1/2 mx-5 pl-5 hover:bg-green-800;
+        @apply flex border-solid border-2 border-white rounded-3xl bg-stone-900 my-2 w-1/2 mx-5 pl-5 hover:bg-green-800;
     }
 
     .project-board-text{
@@ -57,17 +57,18 @@
     }
 
     .redirect-container{
-        @apply flex mt-5; 
+        @apply flex my-10; 
+    }
+
+    .redirect-wrapper{
+        @apply w-1/3;
     }
 
     .redirect-button{
-        @apply flex w-1/4 my-5 mr-10  border-solid border-2 border-white rounded-xl;
+        @apply flex bg-stone-900 border-solid border-2 border-white rounded-l w-auto mx-5 pl-3 hover:font-bold ;
     }
 
     .redirect-text{
-        @apply px-3 text-xl align-middle;
+        @apply self-center text-xl;
     }
-
-
-
 }

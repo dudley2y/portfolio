@@ -24,7 +24,7 @@ export default function Project() {
           </div>
           <div className = "project-board-container"> 
             <ProjectBoard  display ={<FaMoneyCheck size = "150"/>} name = "JAAM" description = "something about JAAM"/>
-            <ProjectBoard  display ={<AiOutlineSmile size = "150"/>} name = "Come back Soon!" description = "Updated Regularly!"/>
+            <ProjectBoard  display ={<AiOutlineSmile size = "150"/>} name = "Come back Soon!" description = "Updated Regularly! FYI,This isn't a back button bc generics :P"/>
 
           </div>
       </div>

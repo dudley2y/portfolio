@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { AiOutlineHome, AiOutlineProject, AiOutlineFile } from "react-icons/ai"
+import { MdOutlineSchool} from "react-icons/md"
+import { GiTie, GiSkills } from "react-icons/gi"
 
 const SideBar = () => {
     return(
@@ -15,11 +17,27 @@ const SideBar = () => {
                 </a>
                 
             </Link>
-            <Link href="/"> 
+            <Link href="/experience"> 
                 <a>
-                    <SideBarIcon icon = {<AiOutlineFile size="32"/>}    text = "Something"/>
+                    <SideBarIcon icon = {<GiTie size="32"/>}    text = "Experience"/>
                 </a>
             </Link>
+            <Link href="/skills"> 
+                <a>
+                    <SideBarIcon icon = {<GiSkills size="32"/>}    text = "Skills"/>
+                </a>
+            </Link>
+            <Link href="/papers"> 
+                <a>
+                    <SideBarIcon icon = {<MdOutlineSchool size="32"/>}    text = "Papers"/>
+                </a>
+            </Link>
+            <Link href="/contact"> 
+                <a>
+                    <SideBarIcon icon = {<AiOutlineFile size="32"/>}    text = "Contact Me"/>
+                </a>
+            </Link>
+
         </div>
     )
 }
