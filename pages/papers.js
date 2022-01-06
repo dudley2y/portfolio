@@ -1,8 +1,7 @@
-
 export default function Papers(){
     return(
         <div>
-            <h1>I can't write LOL</h1>
+            <h1>I cant write LOL</h1>
         </div>
     )
 }
