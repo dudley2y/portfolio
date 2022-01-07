@@ -5,7 +5,7 @@
 @layer components {
 
     .main-content {
-        @apply ml-[15rem] w-screen  text-white  bg-black pt-10 h-screen overflow-auto;
+        @apply pl-[15rem] w-screen  text-white  bg-black h-screen overflow-auto;
     }
 
     .sidebar{
@@ -21,11 +21,11 @@
       }
 
     .page{
-        @apply mx-10
+        @apply mx-10 pt-10;
     }
 
     .intro-board{
-        @apply flex   py-5 bg-stone-900 rounded-lg;
+        @apply flex   py-5 bg-stone-900 rounded-lg ;
     }
 
     .profile-image{
