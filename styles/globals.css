@@ -21,7 +21,7 @@
       }
 
     .page{
-        @apply mx-10 pt-10;
+        @apply px-10 pt-10;
     }
 
     .intro-board{
@@ -74,5 +74,17 @@
 
     .paper{
         @apply bg-stone-900 border-solid border-2 border-white rounded-xl w-auto mx-5 pl-3 mb-10 hover:font-bold;
+    }
+
+    .contact-input {
+        @apply block mb-10 rounded-3xl w-1/2 h-10 px-5;
+    }
+
+    .contact-message{
+        @apply block mb-10 rounded-3xl w-2/3 h-1/3 px-5;
+    }
+
+    .contact-button{
+        @apply bg-green-900 text-white w-1/2 h-10 rounded-3xl;
     }
 }

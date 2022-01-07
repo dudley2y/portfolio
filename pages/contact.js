@@ -10,11 +10,11 @@ export default function Contact(){
                 </div>
 
                 <div className = "w-1/2 pt-20 text-black text-xl">             
-                    <input placeholder = "Name" className = "block mb-10 rounded-3xl w-1/2 h-10 px-5" />
-                    <input placeholder = "Email" className = "block mb-10 rounded-3xl w-1/2 h-10 px-5"  />
-                    <input placeholder = "Subject" className = "block mb-10 rounded-3xl w-1/2 h-10 px-5" />
-                    <textarea    placeholder = "Content" className = "block mb-10 rounded-3xl w-2/3 h-1/3 px-5"  />
-                    <button className = "bg-green-900 text-white w-1/2 h-10 rounded-3xl ">Connect!</button>
+                    <input placeholder = "Name" className = "contact-input" />
+                    <input placeholder = "Email" className = "contact-input"  />
+                    <input placeholder = "Subject" className = "contact-input" />
+                    <textarea    placeholder = "Content" className = "contact-message" />
+                    <button className = "contact-button">Connect!</button>
                 </div>
             </div>
         </div>
