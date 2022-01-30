@@ -3,6 +3,7 @@ import Paper from "../components/Paper";
 export default function Papers(){
     return(
         <div className = "page">
+            <p className = "section-title mb-5">Papers</p>
             <a href = "/report.pdf" target = "_blank" rel='noopener noreferrer'>
                 <Paper 
                     name = "A NEAT Approach to Tetris" 

@@ -1,12 +1,13 @@
-import Layout from "../components/Layout"
 import "../styles/globals.css"
+import Meta from "../components/Meta"
 
 function MyApp({ Component, pageProps }) {
-  // let it rip
   return(
-    <Layout> 
-      <Component {...pageProps} />
-    </Layout>
+      <div>
+        <Meta/>
+        <Component {...pageProps} className = "global" />
+      </div>
+
   )
 }
 

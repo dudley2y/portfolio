@@ -4,32 +4,22 @@
 
 @layer components {
 
-    .main-content {
-        @apply pl-[15rem] w-screen  text-white  bg-black h-screen overflow-auto;
+    /* Global Styling */
+    
+    .global{
+        @apply m-0 p-0 border-0;
     }
 
-    .sidebar{
-        @apply fixed top-0 left-0 h-screen w-60 mt-0 pt-5 flex flex-col bg-stone-900 text-white shadow-lg;
-    }
-
-    .sidebar-icon {
-        @apply relative flex pl-4 pt-10 text-white hover:font-bold ;
-    }
-
-    .sidebar-text {
-        @apply text-lg pl-2;
-      }
+    /* For each section */
 
     .page{
-        @apply px-10 pt-10;
+        @apply pt-10 px-5;
     }
+
+    /* Intro Message Board */
 
     .intro-board{
-        @apply flex   py-5 bg-stone-900 rounded-lg ;
-    }
-
-    .profile-image{
-        @apply ml-10 ;
+        @apply flex border-2 border-black py-5 rounded-3xl;
     }
 
     .about-me{
@@ -37,54 +27,58 @@
     }
 
     .intro-speech{
-        @apply text-base pt-14;
-    }
+        @apply text-base pt-10;
+    } 
+
+    /* Welcome message style */
 
     .welcome {
         @apply text-3xl mt-5
     }
 
+    /* Nav Button Container */
+
+    .nav-button-container{
+        @apply flex my-10; 
+    }
+
+    .nav-button-wrapper{
+        @apply w-1/3;
+    }
+
+
+
+    /* Nav Button */ 
+
+    .nav-button{
+        @apply flex border-solid border-2 border-black rounded-l w-auto mx-5 pl-3 hover:font-bold ;
+    }
+
+    .nav-text{
+        @apply self-center text-xl;
+    }
+
+    /* Section Header Text */
+
+    .section-title{
+        @apply text-2xl;
+
+    }
+
     .project-board-container{
-        @apply flex; 
+        @apply flex pt-5; 
     }
 
     .project-board { 
-        @apply flex border-solid border-2 border-white rounded-3xl bg-stone-900 my-2 w-1/2 mx-5 pl-5 hover:bg-green-800;
+        @apply flex border-solid border-2 border-black rounded-3xl my-2 w-1/2 mx-5 pl-5 hover:font-bold;
     }
 
+    
     .project-board-text{
         @apply pt-5 pl-4;
     }
 
-    .redirect-container{
-        @apply flex my-10; 
-    }
-
-    .redirect-wrapper{
-        @apply w-1/3;
-    }
-
-    .redirect-button{
-        @apply flex bg-stone-900 border-solid border-2 border-white rounded-l w-auto mx-5 pl-3 hover:font-bold ;
-    }
-
-    .redirect-text{
-        @apply self-center text-xl;
-    }
-
     .paper{
-        @apply bg-stone-900 border-solid border-2 border-white rounded-xl w-auto mx-5 pl-3 mb-10 hover:font-bold;
-    }
-
-    .contact-input {
-        @apply block mb-10 rounded-3xl w-1/2 h-10 px-5;
-    }
-
-    .contact-message{
-        @apply block mb-10 rounded-3xl w-2/3 h-1/3 px-5;
-    }
-
-    .contact-button{
-        @apply bg-green-900 text-white w-1/2 h-10 rounded-3xl;
-    }
+        @apply border-solid border-2 border-black rounded-xl w-auto mx-5 pl-3 mb-10 hover:font-bold;
+    } 
 }

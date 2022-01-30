@@ -1,6 +1,3 @@
-
-
-
 const Welcome = () => {
 
     const displayWelcome = () => {
