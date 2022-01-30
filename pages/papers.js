@@ -2,7 +2,7 @@ import Paper from "../components/Paper";
 
 export default function Papers(){
     return(
-        <div className = "page">
+        <div className = "page" id = "Papers">
             <p className = "section-title mb-5">Papers</p>
             <a href = "/report.pdf" target = "_blank" rel='noopener noreferrer'>
                 <Paper 

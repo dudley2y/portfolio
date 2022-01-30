@@ -13,7 +13,7 @@
     /* For each section */
 
     .page{
-        @apply pt-10 px-5;
+        @apply pt-5 px-5;
     }
 
     /* Intro Message Board */
@@ -39,7 +39,7 @@
     /* Nav Button Container */
 
     .nav-button-container{
-        @apply flex my-10; 
+        @apply flex my-10 ; 
     }
 
     .nav-button-wrapper{
@@ -70,7 +70,7 @@
     }
 
     .project-board { 
-        @apply flex border-solid border-2 border-black rounded-3xl my-2 w-1/2 mx-5 pl-5 hover:font-bold;
+        @apply flex border-solid border-2 border-black rounded-3xl w-1/2 mx-5 pl-5 hover:font-bold;
     }
 
     

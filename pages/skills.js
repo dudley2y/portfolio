@@ -1,7 +1,7 @@
 
 export default function Skills(){
     return(
-        <div className = "page mb-10">
+        <div className = "page mb-10" id = "Skills">
             <p className = "section-title">Skills</p>
             <div className = "flex pt-10 text-xl">
                 <div className = "w-1/2 text-center ">

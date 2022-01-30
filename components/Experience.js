@@ -3,7 +3,7 @@ const Experience = ({name, line1, line2, line3}) => {
     return(
         <div className = "paper">
             <h1 className = "text-3xl hover:font-bold">{name}</h1>
-            <div className = "pl-10">
+            <div className = "pl-10 pt-3 text-lg    ">
                 <ul className = "list-disc">
                     <li >{line1}</li>
                     <li >{line2}</li>
